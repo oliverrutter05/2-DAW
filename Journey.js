@@ -34,29 +34,29 @@ angular.module("angular", [])
                 /*************************************/
                 
 				Id: 0,
-				Name: "Pedro",
+				Name: "Javier",
                 Photo: "man.png",
     
                 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "quiere preparar un viaje con sus amigos en Semana Santa",
-                touch1: "agenda",
+                goal1: "Le gustaría invertir en su futuro proyecto relacionado con el mar",
+                touch1: "Archivos",
                 feel1: "4",
-                con1: "ver cuantos días puede tener libres para organizar lugar de viaje ",
+                con1: "Los ahorros incrementan muy lentamente y se convierte en un proceso relativamente lento",
                 ima1: "cartoon-planning.png",
 				
                 /*** PASO #2: DECICION ***/ 
-                goal2: "Busca en internet ofertas para esas fechas",
-                touch2: "Movil",
+                goal2: "Piensa en hacer horas extras para conseguir un mejor sueldo",
+                touch2: "Ordenador",
                 feel2: "2",
-                con2: "hay demasiada información y pierde mucho tiempo, no hay precios 'baratos'",
+                con2: "Se acumula el cansansio con el paso de los días",
                 ima2: "cartoon-PCangry.png",
                 
                 /*** PASO #3: ACTUA ***/ 
                 
-                goal3: "Decide buscar un alojamiento rural  en plasencia, donde hay procesiones y parece que hará buen tiempo",
-                touch3: "móvil (el tiempo)",
+                goal3: "Decide privarse de hacer sus hobbies durante un tiempo para poder ahorrar más dinero",
+                touch3: "Tiempo invertido",
                 feel3: "3",
-                con3: "Está preocupado por el tiempo y el desplazamiento (coche y aparcamiento)",
+                con3: "Se siente bien por el progreso (aunque un poco agobiante)",
                 ima3: "cartoon-phone.png",
                 
                 /*** PASO #4: OBSERVA ***/ 

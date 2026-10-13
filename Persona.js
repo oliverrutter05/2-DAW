@@ -33,36 +33,44 @@ angular.module("angular", [])
                 
                 
 				Id: 0,
-				Name: "Pedro",
+				Name: "Javier",
 				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
-				Character: "Le gusta disfrutar del tiempo",
+				Quote: "El mar siempre tiene algo nuevo que ofrecer",
+				Age: 46,
+				Occupation: "Empresario de alquiler de locales y embarcaciones",
+				Family: "Casado y con dos hijos",
+				Location: "Málaga (Málaga, Puerto de Málaga)",
+				Character: "Tranquilo, trabajador y muy aficionado al mar y a la pesca",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 5 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 4 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
+				Goals: [
+					"Ampliar su negocio de alquiler de locales y embarcaciones",
+					"Disfrutar de más tiempo para salir a pescar",
+					"Conseguir nuevos clientes mediante Internet"
+				],
+				Frustrations: [
+					"Le cuesta gestionar todas las reservas y alquileres de forma organizada",
+					"Pierde bastante tiempo contestando llamadas y mensajes",
+					"Le resulta complicado encontrar información sobre nuevos clientes y reservas"
+				],
+				Bio: "Javier tiene 46 años y vive en Motril. Desde hace más de 15 años trabaja por cuenta propia gestionando varios locales comerciales y algunas embarcaciones destinadas al alquiler. Desde pequeño ha estado relacionado con el mar y la pesca, una afición que sigue practicando siempre que tiene tiempo. Le gusta salir a pescar con amigos y familiares, especialmente durante los fines de semana. Su negocio ha crecido durante los últimos años y cada vez recibe más reservas, por lo que busca herramientas que le permitan gestionar mejor los alquileres y mantener toda la información organizada. Aunque utiliza Internet y el móvil habitualmente, no se considera una persona especialmente experta en tecnología.",
 				Tech: [
-					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
+					{ Name: "TIC/Internet", Value: 3 },
+					{ Name: "Movil", Value: 4 },
 					{ Name: "RRSS", Value: 3 },
 					{ Name: "Software", Value: 2 }
 					
 				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
+                Contextos: "Necesita organizar mejor las reservas de sus locales y embarcaciones. También quiere encontrar una forma sencilla de mostrar a los clientes los espacios y barcos disponibles, consultar precios y gestionar las reservas sin tener que responder constantemente llamadas y mensajes.",  
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
-					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
+					{ Name: "Publicidad Tradicional", Value: 3 },
+					{ Name: "Online & Social Media", Value: 4 },
+					{ Name: "Recomendaciones & sugerencias", Value: 4 },
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 5 }
 				]
 			},
 			{	
