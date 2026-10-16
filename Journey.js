@@ -92,55 +92,50 @@ angular.module("angular", [])
                 /*************************************/
                 
 				Id: 1,
-				Name: "Monica Suarez",
+                Name: "Lucía",
                 Photo: "woman.png",
-                
-				 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "Quiere preparar un viaje con su familia para Verano, tiene sólo 15 dias libres",
-                touch1: "agenda",
+
+                /*** PASO #1: INSPIRACION ***/
+                goal1: "Necesita encontrar un local original para organizar una celebración para uno de sus clientes",
+                touch1: "Ordenador (búsqueda web)",
                 feel1: "5",
-                con1: "Quiere ir a un pais exotico pero que tenga atracciones para niños pequeños",
+                con1: "Tiene muchas ideas y quiere encontrar un espacio especial que se adapte al tipo de evento y a su presupuesto",
                 ima1: "cartoon-going.png",
-                
-                /*** PASO #2: DECICION ***/ 
-                goal2: "Ir a una agencia de viajes, y decirle sus preferencias y planes",
-                touch2: "Servicio (agencia)",
+
+                /*** PASO #2: DECISION ***/
+                goal2: "Comparar diferentes locales para encontrar el que mejor se adapte a las necesidades del cliente",
+                touch2: "Móvil (web y redes sociales)",
                 feel2: "4",
-                con2: "Tiene que desplazarse a agencia, explica su intenciones, le llamaran porque no hay nada interesante",
+                con2: "Encuentra varias opciones, pero tiene que consultar diferentes páginas para conocer los precios, las características y la disponibilidad",
                 ima2: "cartoon-teamthinking.png",
-                
-                /*** PASO #3: ACTUA ***/ 
-                
-                goal3: "Le llaman a los pocos días con un viaje que no le convence",
-                touch3: "Móvil (llamada)",
+
+                /*** PASO #3: ACTUA ***/
+                goal3: "Contactar con los propietarios de los locales que más le interesan",
+                touch3: "Móvil (llamadas y mensajes)",
                 feel3: "2",
-                con3: "Piensa que ha perdido el tiempo",
+                con3: "Algunos propietarios tardan en responder y no consigue confirmar rápidamente si los locales están disponibles",
                 ima3: "cartoon-phoningangry.png",
-                
-                /*** PASO #4: OBSERVA ***/ 
-                
-                goal4: "Busca una oferta en hoteles cerca de playa y con parque atracciones",
-                touch4: "Móvil (webapp)",
-                feel4: "2",
-                con4: "No hay mucha información del alojamiento ni de lo que hay alrededor, aunque el precio está bien, va por la calle por lo que está incómoda",
+
+                /*** PASO #4: OBSERVA ***/
+                goal4: "Buscar una plataforma que le permita consultar locales, precios y disponibilidad en un mismo sitio",
+                touch4: "Móvil (plataforma web)",
+                feel4: "4",
+                con4: "Descubre una plataforma donde puede ver fotografías y características de los espacios, lo que le facilita comparar las opciones",
                 ima4: "cartoon-phone-street.png",
-                
-                 /*** PASO #5: ANALIZA ***/ 
-                
-                goal5: "Reserva a traves de la aplicación ",
-                touch5: "Móvil (webapp)",
-                feel5: "3",
-                con5: "Le pide muchos datos y le resulta incómodo completar formulario",
+
+                /*** PASO #5: ANALIZA ***/
+                goal5: "Elegir el local adecuado y completar la solicitud de reserva",
+                touch5: "Móvil (plataforma web)",
+                feel5: "5",
+                con5: "Puede consultar la información del local y sus condiciones antes de reservar, aunque necesita comprobar algunos detalles con el propietario",
                 ima5: "cartoon-phone-sitting.png",
 
-                
-                /*** PASO #6: CONCLUSION ***/ 
-                
-                goal6: "Consiguie reservar para vacaciones pero no era lo que tenía en mente",
-                touch6: "Ordenador (reserva OK)",
-                feel6: "2",
-                con6: "Tendrá que buscar más información del lugar para ver que actividades ofrece y donde aparacar!",
-                ima6: "cartoon-PChard.png",
+                /*** PASO #6: CONCLUSION ***/
+                goal6: "Confirmar la reserva del local y organizar el evento con su cliente",
+                touch6: "Ordenador (reserva confirmada)",
+                feel6: "5",
+                con6: "Consigue el espacio que buscaba y ahorra tiempo al tener la información de la reserva organizada. Está satisfecha y volvería a utilizar la plataforma para futuros eventos",
+                ima6: "cartoon-PChard.png"
                 
                 
                 

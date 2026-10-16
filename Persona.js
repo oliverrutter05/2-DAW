@@ -82,36 +82,45 @@ angular.module("angular", [])
                 
                 
 				Id: 1,
-				Name: "Monica Suarez",
+				Name: "Lucía",
 				Photo: "woman.png",
-				Quote: "A quotation that captures the essence of this person's personality",
-				Age: 17,
-				Occupation: "Searching for a cure for the Empress",
-				Family: "No parents, only family are the people who raised him.",
-				Location: "The Grassy Plains of Fantasia",
-				Character: "Strong, reliable and fearless.",
+				Quote: "Cada viaje es una oportunidad para descubrir algo nuevo",
+				Age: 32,
+				Occupation: "Organizadora de eventos y autónoma",
+				Family: "Soltera, vive con su pareja y tiene un perro",
+				Location: "Granada (Granada, Andalucía)",
+				Character: "Creativa, organizada y sociable, siempre busca nuevas experiencias",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
-				], 
-				Goals: ["The goals this user hopes to achieve.", "A task that needs to be completed.", "A life goal to be reached.", "An experience to be felt."],
-				Frustrations: ["The frustrations this user would like to avoid.", "The obstacle that prevents the user from achieving their goals.", "The problems with the solutions already available.", "The product or service which does not currently exist."],
-				Bio: "The bio should be a short paragraph to describe the user journey. It should include some of their history leading up to a current use case. It may be helpful to incorporate information listed across the template and add pertinent details that may have been left out. Highlight factors of the user's personal and professional life that make this user an ideal customer of your product.",
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 4 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 3 }
+				],
+				Goals: [
+					"Encontrar espacios originales para organizar eventos y celebraciones",
+					"Comparar precios y consultar la disponibilidad de locales fácilmente",
+					"Contactar directamente con los propietarios para resolver dudas",
+					"Ampliar su cartera de clientes y mejorar la organización de sus eventos"
+				],
+				Frustrations: [
+					"Tiene dificultades para encontrar locales que se adapten a las necesidades de cada evento",
+					"Pierde tiempo consultando la disponibilidad en diferentes páginas web",
+					"A menudo encuentra información incompleta sobre los precios y las condiciones del alquiler",
+					"Le resulta complicado coordinar las reservas con los propietarios"
+				],
+				Bio: "Lucía tiene 32 años y vive en Granada. Trabaja como organizadora de eventos y desde hace varios años ayuda a particulares y empresas a preparar celebraciones, reuniones y pequeñas fiestas. Le gusta encontrar lugares diferentes que se adapten a cada ocasión y ofrecer propuestas originales a sus clientes. Actualmente utiliza Internet y las redes sociales para buscar espacios y promocionar sus servicios, pero suele tener que consultar varias páginas y contactar con numerosos propietarios para encontrar el lugar adecuado. Por eso, busca una plataforma que le permita comparar locales, consultar precios y disponibilidad, y gestionar las reservas de forma rápida y sencilla.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 5 },
-					{ Name: "Mobile", Value: 3 },
-					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 5 }
-					
-				], 
-                Contextos:   "The goals this user hopes to achieve." ,
+					{ Name: "Movil", Value: 5 },
+					{ Name: "RRSS", Value: 5 },
+					{ Name: "Software", Value: 4 }
+				],
+				Contextos: "Necesita encontrar y comparar locales para diferentes tipos de eventos sin perder tiempo buscando en múltiples páginas. Quiere consultar fotografías, precios, características y disponibilidad, además de contactar con los propietarios y gestionar las reservas desde una única plataforma.",
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional (Ads)", Value: 5 },
-					{ Name: "Online & Social Media", Value: 2 },
-					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
+					{ Name: "Publicidad Tradicional", Value: 2 },
+					{ Name: "Online & Social Media", Value: 5 },
+					{ Name: "Recomendaciones & sugerencias", Value: 4 },
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 3 }
 				]
 			}
 		];
