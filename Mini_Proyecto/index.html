@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de videojuegos</title>
+    
+</head>
+<body>
+
+    <header>
+
+        <h1>Catálogo de videojuegos</h1>
+        <p>Explora, compara y descubre nuestros mejores videojuegos</p>
+
+    </header>
+
+    <section id="catalogo">
+        
+        <h2>Todos nuestros videojuegos</h2>
+
+        <div id="lista_videojuegos"></div>
+
+    </section>
+
+    <section id="filtros">
+
+        <h2>Filtrar videojuegos</h2>
+
+        <label for="filtro_categoria">Categoría: </label>
+
+        <select id="filtro_categoria">
+            <option value="todas">Todas las categorías</option>
+        </select>
+
+        <button id="btn_filtrar">Filtrar juegos</button>
+        <button id="btn_mostrarVideojuegos">Mostrar todos los videojuegos</button>
+
+    </section>
+
+    <section id="estadisticas">
+            <h2>Estadísticas</h2>
+
+            <div id="resultado-estadisticas"></div>
+        </section>
+
+        <section id="rankings">
+            <h2>Rankings</h2>
+
+            <div id="resultado-rankings"></div>
+        </section>
+
+        <section id="busqueda">
+            <h2>Buscar videojuego</h2>
+
+            <label for="buscar-id">ID del videojuego:</label>
+
+            <input
+                type="number"
+                id="buscar-id"
+                min="1"
+                placeholder="Introduce un ID"
+            >
+
+            <button id="btn-buscar">Buscar</button>
+
+            <div id="resultado-busqueda"></div>
+        </section>
+
+        <section id="analisis">
+            <h2>Análisis de objetos</h2>
+
+            <button id="btn-analizar">Analizar videojuegos</button>
+
+            <div id="resultado-analisis"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto DWEC - Unidad 3</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+
+    
+</body>
+</html>
