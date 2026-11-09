@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo interactivo de videojuegos: explora, compara y analiza tus juegos favoritos.">
+    <title>GameVault | Catálogo de videojuegos</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+    <header class="portada">
+        <div class="portada__contenido">
+            <span class="etiqueta-superior">CATÁLOGO INTERACTIVO</span>
+            <h1>Game<span>Vault</span></h1>
+            <p>Explora, compara y descubre videojuegos. Un catálogo para encontrar tu próxima aventura.</p>
+            <a class="enlace-portada" href="#catalogo">Explorar catálogo <span aria-hidden="true">↓</span></a>
+        </div>
+    </header>
+
+    <main id="contenedor-principal">
+        <section class="seccion" id="catalogo">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">01 / COLECCIÓN</span><h2>Todos los videojuegos</h2></div>
+                <span class="nota-seccion" id="contador-catalogo"></span>
+            </div>
+            <div id="lista-videojuegos" class="cuadricula-videojuegos"></div>
+        </section>
+
+        <section class="seccion seccion--suave" id="estadisticas">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">02 / EN CIFRAS</span><h2>Estadísticas generales</h2></div>
+            </div>
+            <div id="resultado-estadisticas" class="cuadricula-estadisticas"></div>
+        </section>
+
+        <section class="seccion" id="mejor-valorados">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">03 / LOS MEJORES</span><h2>Top 5 mejor valorados</h2></div>
+            </div>
+            <div id="resultado-mejor-valorados" class="lista-clasificacion"></div>
+        </section>
+
+        <section class="seccion seccion--suave" id="verificaciones">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">04 / COMPROBACIONES</span><h2>Verificaciones del catálogo</h2></div>
+            </div>
+            <div id="resultado-verificaciones" class="cuadricula-comprobaciones"></div>
+        </section>
+
+        <section class="seccion" id="filtros">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">05 / EXPLORA</span><h2>Filtrar por categoría</h2></div>
+            </div>
+            <div class="barra-herramientas">
+                <label for="filtro-categoria">Elige una categoría</label>
+                <select id="filtro-categoria">
+                    <option value="todas">Todas las categorías</option>
+                </select>
+                <button class="boton" id="boton-filtrar">Aplicar filtro</button>
+                <button class="boton boton--secundario" id="boton-mostrar-videojuegos">Mostrar todos</button>
+            </div>
+            <p class="contador-resultados" id="resultado-filtro" aria-live="polite"></p>
+            <div id="lista-filtrada" class="cuadricula-videojuegos"></div>
+        </section>
+
+        <section class="seccion seccion--destacada" id="seleccion-especial">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">06 / SELECCIÓN ESPECIAL</span><h2>Videojuegos premium</h2><p>Juegos con una puntuación igual o superior a 9.</p></div>
+            </div>
+            <div id="resultado-destacados" class="cuadricula-videojuegos"></div>
+        </section>
+
+        <section class="seccion seccion--suave" id="busqueda">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">07 / ENCUENTRA TU JUEGO</span><h2>Sistema de búsqueda</h2></div>
+            </div>
+            <div class="paneles-busqueda">
+                <div class="panel-busqueda">
+                    <label for="buscar-identificador">Buscar por identificador</label>
+                    <div class="linea-busqueda"><input type="text" id="buscar-identificador" placeholder="Ej. VG001"><button class="boton" id="boton-buscar-identificador">Buscar identificador</button></div>
+                </div>
+                <div class="panel-busqueda">
+                    <label for="buscar-nombre">Buscar por nombre</label>
+                    <div class="linea-busqueda"><input type="text" id="buscar-nombre" placeholder="Ej. Hollow Knight"><button class="boton" id="boton-buscar-nombre">Buscar nombre</button></div>
+                </div>
+            </div>
+            <div id="resultado-busqueda" class="resultado-busqueda" aria-live="polite"></div>
+        </section>
+
+        <section class="seccion" id="analisis">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">08 / ESTRUCTURA DE DATOS</span><h2>Análisis de propiedades</h2><p>Ejemplo de trabajo con las propiedades de un objeto del catálogo.</p></div>
+            </div>
+            <button class="boton" id="boton-analizar">Analizar primer videojuego</button>
+            <div id="resultado-analisis" class="cuadricula-analisis"></div>
+        </section>
+
+        <section class="seccion seccion--suave" id="mas-economicos">
+            <div class="encabezado-seccion">
+                <div><span class="etiqueta-superior">09 / BUENA COMPRA</span><h2>Top 5 más económicos</h2></div>
+            </div>
+            <div id="resultado-mas-economicos" class="lista-clasificacion"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div><strong>GameVault</strong><p>Proyecto DWEC · Unidad 3 · JavaScript avanzado</p></div>
+        <p>Desarrollado por Oliver · <span id="anio-actual"></span></p>
+        <p>HTML · CSS · JavaScript ES6</p>
+    </footer>
+</body>
+</html>
